@@ -14,7 +14,7 @@ model = AutoModelWithLMHead.from_pretrained("gpt2")
 text_generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 # Set seed for reproducibility
-set_seed(42)
+set_seed(102)
 
 @api_view(['POST'])
 def prompt_data(request):

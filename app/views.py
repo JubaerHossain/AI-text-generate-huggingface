@@ -24,4 +24,5 @@ def prompt_data(request):
     return JsonResponse({
         'answer': generated_text,        
     }, status=status.HTTP_200_OK)
+
     

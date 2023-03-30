@@ -4,3 +4,6 @@
 python manage.py runserver
 ```
 
+# screenshot 
+![](1.png)
+
